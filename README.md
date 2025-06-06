@@ -7,7 +7,7 @@
 - CSS3
 - JavaScript
 
-## References
+## Referensi
 
 Berikut adalah referensi yang digunakan dalam pembuatan website ini:
 
