@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Sinéfolis</title>
+  <link rel="stylesheet" href="Feedback Page.css"/>  
+  <link rel="icon" href="/Assets/head logo.png" type="image/x-icon">
+</head>
+
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="../index.html">
+        <img src="/Assets/logo.png" alt="Sinéfolis Logo" class="logo-img" />
+      </a>
+    </div>
+    <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+    <div class="nav-links" id="navLinks">
+      <a href="../index.html">Home</a>
+      <a href="/Promo Page/Promo Page.html">Promo</a>
+      <a href="/Now Showing Page/Now Showing Page.html">Now Showing</a>
+      <a href="/Cinema Page/Cinema Page.html">Cinema</a>
+      <a href="/Feedback Page/Feedback Page.html">Feedback</a>
+      <a href="#" class="sign-in-link">Sign In
+        <img src="/Assets/Male User.png" alt="Sign In Icon" class="sign-in-icon" />
+      </a>
+    </div>
+  </nav>
+
+
+  <div class="feedback-container">
+    <h1>We Value Your Feedback</h1>
+
+    <form id="feedbackForm">
+      <label>
+        <h4>Name:</h4>
+        <input type="text" placeholder="Enter name" id="name" />
+        <small class="error" id="name-error"></small>
+      </label>
+
+      <label>
+        <h4>Email:</h4>
+        <input type="email" placeholder="Enter email" id="email" />
+        <small class="error" id="name-error"></small>
+      </label>
+
+      <label>
+        <h4>Message:</h4>
+        <textarea placeholder="Enter message" id="message" rows="4"></textarea>
+        <small class="error" id="name-error"></small>
+      </label>
+
+      <label>
+        <h4>Category:</h4>
+        <select id="category">
+          <option value="">Select Category</option>
+          <option value="Service">Service</option>
+          <option value="Experience">Experience</option>
+          <option value="Facility">Facility</option>
+        </select>
+      </label>
+
+      <label class="member">
+        <h4>Are you a member?
+          <br> 
+          <input type="radio" name="member" value="yes" /> Yes
+          <input type="radio" name="member" value="no" /> No 
+        </h4>
+      </label>
+      <div id="error-msg" style="color: #b89d70; margin-top: 1rem;"></div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <a href="../index.html" class="footer-logo">
+          <img class="logo-icon" alt="Logo" src="/Assets/Logo.png" />
+        </a>
+        <div class="link">
+          <a href="../index.html" class="footer-link">Home</a>
+          <a href="/Promo Page/Promo Page.html" class="footer-link">Promo</a>
+          <a href="/Now Showing Page/Now Showing Page.html" class="footer-link">Now Showing</a>
+          <a href="/Cinema Page/Cinema Page.html" class="footer-link">Cinema</a>
+          <a href="/Feedback Page/Feedback Page.html" class="footer-link">Feedback</a>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <div class="contact">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="/Assets/Instagram.png" alt="Instagram" />
+          </a>
+          <a href="https://www.tiktok.com/" target="_blank">
+            <img src="/Assets/TikTok.png" alt="TikTok" />
+          </a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <img src="/Assets/YouTube Squared.png" alt="YouTube" />
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <img src="/Assets/Twitter Bird.png" alt="Twitter" />
+          </a>
+          <a href="mailto:example@example.com">
+            <img src="/Assets/Mail.png" alt="Mail" />
+          </a>
+        </div>
+        <div class="copyright">
+          © 2025 Sinéfolis Cinemas. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="Feedback Page.js"></script>
+</body>
+</html>
