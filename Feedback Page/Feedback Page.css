@@ -191,7 +191,7 @@ label h4 {
 }
 
 .buttonradio {
-  display: flex;
+  display: grid;
   padding: 1rem;
   gap: 2rem;
   align-items: center;
