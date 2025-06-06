@@ -11,7 +11,7 @@
 
 - Navigasi antar halaman
 - Desain responsif untuk berbagai ukuran layar
-- Formulir feedback dengan validasi manual (tanpa regex)
+- Formulir feedback dengan validasi manual
 - Struktur halaman modular
 
 ## Validasi Form
@@ -19,7 +19,7 @@
 Halaman feedback (`/feedback/index.html`) mencakup:
 - 5 jenis elemen form: `input text`, `email`, `textarea`, `select`, dan `radio`
 - 5 jenis validasi: input kosong, panjang karakter, validasi email dasar, pilihan wajib, dan radio yang harus dipilih
-- Semua validasi ditangani oleh JavaScript (tanpa regex)
+- Semua validasi ditangani oleh JavaScript
 
 ## Responsif
 
@@ -60,13 +60,12 @@ Website ini terinspirasi dari beberapa situs bioskop profesional berikut:
 - [FLIX Cinema](https://flixcinema.mimin.io/)
 - [AMC Theatres](https://www.amctheatres.com/)
 
-Referensi di atas digunakan sebagai panduan dalam menentukan struktur halaman, warna, elemen navigasi, serta presentasi konten seperti daftar film, promo, dan lokasi bioskop.
+Referensi di atas digunakan sebagai inspirasi dalam menentukan struktur halaman, warna, elemen navigasi, serta presentasi konten seperti daftar film, promo, dan lokasi bioskop.
 
 ## Catatan
 
 - Semua file CSS dan JS bersifat **external**
 - Tidak menggunakan library atau framework seperti Bootstrap
-- Struktur folder dibuat untuk memudahkan pengelolaan per halaman
 
 > Dibuat oleh [Jovan Yehezkiel Farand Siallagan]  
 > Untuk keperluan tugas / proyek akhir
