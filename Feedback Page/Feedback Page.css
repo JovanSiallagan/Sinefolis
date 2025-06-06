@@ -176,6 +176,11 @@ label h4 {
   padding-left: 0.8rem;
 }
 
+.selectcategory {
+  color: #888;
+  font-style: italic;
+}
+
 .member {
   text-align: center;
   align-items: center;
@@ -183,6 +188,18 @@ label h4 {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+}
+
+.buttonradio {
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+  align-items: center;
+}
+
+.buttonradio input[type="radio"] {
+  transform: scale(2);
+  margin-right: 0.5rem;
 }
 
 input[type="text"],
