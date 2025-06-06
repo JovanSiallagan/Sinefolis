@@ -7,6 +7,25 @@
 - CSS3
 - JavaScript
 
+## Fitur
+
+- Navigasi antar halaman
+- Desain responsif untuk berbagai ukuran layar
+- Formulir feedback dengan validasi manual (tanpa regex)
+- Struktur halaman modular
+
+## Validasi Form
+
+Halaman feedback (`/feedback/index.html`) mencakup:
+- 5 jenis elemen form: `input text`, `email`, `textarea`, `select`, dan `radio`
+- 5 jenis validasi: input kosong, panjang karakter, validasi email dasar, pilihan wajib, dan radio yang harus dipilih
+- Semua validasi ditangani oleh JavaScript (tanpa regex)
+
+## Responsif
+
+- Menggunakan `meta viewport tag`
+- Media query `@media (max-width: 768px)` untuk tampilan mobile
+
 ## Referensi
 
 Berikut adalah referensi yang digunakan dalam pembuatan website ini:
@@ -42,25 +61,6 @@ Website ini terinspirasi dari beberapa situs bioskop profesional berikut:
 - [AMC Theatres](https://www.amctheatres.com/)
 
 Referensi di atas digunakan sebagai panduan dalam menentukan struktur halaman, warna, elemen navigasi, serta presentasi konten seperti daftar film, promo, dan lokasi bioskop.
-
-## Fitur
-
-- Navigasi antar halaman
-- Desain responsif untuk berbagai ukuran layar
-- Formulir feedback dengan validasi manual (tanpa regex)
-- Struktur halaman modular
-
-## Validasi Form
-
-Halaman feedback (`/feedback/index.html`) mencakup:
-- 5 jenis elemen form: `input text`, `email`, `textarea`, `select`, dan `radio`
-- 5 jenis validasi: input kosong, panjang karakter, validasi email dasar, pilihan wajib, dan radio yang harus dipilih
-- Semua validasi ditangani oleh JavaScript (tanpa regex)
-
-## Responsif
-
-- Menggunakan `meta viewport tag`
-- Media query `@media (max-width: 768px)` untuk tampilan mobile
 
 ## Catatan
 
