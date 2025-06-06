@@ -55,7 +55,7 @@
       <label>
         <h4>Category:</h4>
         <select id="category">
-          <option value="">Select Category</option>
+          <option class="selectcategory" value="">Select Category</option>
           <option value="Service">Service</option>
           <option value="Experience">Experience</option>
           <option value="Facility">Facility</option>
@@ -64,9 +64,11 @@
 
       <label class="member">
         <h4>Are you a member?
-          <br> 
-          <input type="radio" name="member" value="yes" /> Yes
-          <input type="radio" name="member" value="no" /> No 
+          <br>
+          <div class="buttonradio">
+            <label><input type="radio" name="member" value="yes" /> Yes</label>
+            <label><input type="radio" name="member" value="no" /> No</label>
+          </div> 
         </h4>
       </label>
       <div id="error-msg" style="color: #b89d70; margin-top: 1rem;"></div>
