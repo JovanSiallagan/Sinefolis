@@ -11,27 +11,27 @@
 
 Berikut adalah referensi yang digunakan dalam pembuatan website ini:
 
-### 🔗 Aset & Sumber Gambar
+### Aset & Sumber Gambar
 
-#### 🏠 Home Page
+#### Home Page
 - Logo: Dihasilkan menggunakan AI Generator dari ChatGPT (OpenAI Image tool)
 - Banner & fitur gambar (Dolby Cinema, screen, audio, dll): Diambil dari hasil pencarian umum (Google Images) dan sumber terbuka.
 - Gambar dolby cinema: [Dolby Official Website](https://www.dolby.com/) dan sumber referensi terbuka lainnya.
 
-#### 🧧 Promo Page
+#### Promo Page
 - Ilustrasi aset promo: Diambil dari Canva Image Library ([https://www.canva.com/](https://www.canva.com/))
 
-#### 🎬 Now Showing Page
+#### Now Showing Page
 - Poster film: Diambil dari IMDb ([https://www.imdb.com/](https://www.imdb.com/))
 
-#### 🏢 Cinema Page
+#### Cinema Page
 - Gambar bangunan bioskop dan lokasi: Diambil dari Google Maps & Google Images
 
-#### 🔗 Umum
+#### Umum
 - Ikon media sosial & UI: [ICONS8](https://icons8.com/app)
 - Font "Poppins": [Google Fonts](https://fonts.google.com/specimen/Poppins)
 
-### 🎨 Referensi Desain
+### Referensi Desain
 
 Website ini terinspirasi dari beberapa situs bioskop profesional berikut:
 
