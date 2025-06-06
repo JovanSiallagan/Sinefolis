@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Sinéfolis</title>
-  <link rel="stylesheet" href="Feedback Page.css"/>  
+  <link rel="stylesheet" href="Promo Page.css"/>  
   <link rel="icon" href="../Assets/head logo.png" type="image/x-icon">
 </head>
 
@@ -19,7 +19,7 @@
     <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
     <div class="nav-links" id="navLinks">
       <a href="../index.html">Home</a>
-      <a href="../Promo Page/Promo Page.html">Promo</a>
+      <a href="/Promo Page/Promo Page.html">Promo</a>
       <a href="../Now Showing Page/Now Showing Page.html">Now Showing</a>
       <a href="../Cinema Page/Cinema Page.html">Cinema</a>
       <a href="../Feedback Page/Feedback Page.html">Feedback</a>
@@ -30,48 +30,57 @@
   </nav>
 
 
-  <div class="feedback-container">
-    <h1>We Value Your Feedback</h1>
+  <div class="list-promo">
+    <h1 class="sinfolis-deals-of">Sinéfolis Deals of the Day</h1>
+    <div class="promo-container">
+      <div class="promo-box">
+        <div class="promo-bg"></div>
+        <img class="promo-img" src="../Assets/Image 1.png" alt="">
+        <div class="promo-title">Student Ticket Discount</div>
+        <div class="promo-desc">Enjoy a 25% discount for students by showing a valid student ID at the time of purchase.</div>
+        <div class="promo-code">Promo Code: <span class="highlight">STUDENT25</span></div>
+      </div>
 
-    <form id="feedbackForm">
-      <label>
-        <h4>Name:</h4>
-        <input type="text" placeholder="Enter name" id="name" />
-        <small class="error" id="name-error"></small>
-      </label>
+      <div class="promo-box">
+        <div class="promo-bg"></div>
+        <img class="promo-img" src="../Assets/Image 2.png" alt="">
+        <div class="promo-title">Buy 1 Get 1 for Couple Night</div>
+        <div class="promo-desc">Buy 1 ticket and get another one for free every Thursday — perfect for couples.</div>
+        <div class="promo-code">Promo Code: <span class="highlight">COUPLENIGHT</span></div>
+      </div>
 
-      <label>
-        <h4>Email:</h4>
-        <input type="email" placeholder="Enter email" id="email" />
-        <small class="error" id="name-error"></small>
-      </label>
+      <div class="promo-box">
+        <div class="promo-bg"></div>
+        <img class="promo-img" src="../Assets/Image 3.png" alt="">
+        <div class="promo-title">Combo Meal Cashback</div>
+        <div class="promo-desc">Get Rp10,000 cashback on every combo meal purchase over Rp150,000.</div>
+        <div class="promo-code">Promo Code: <span class="highlight">MEALCASH</span></div>
+      </div>
 
-      <label>
-        <h4>Message:</h4>
-        <textarea placeholder="Enter message" id="message" rows="4"></textarea>
-        <small class="error" id="name-error"></small>
-      </label>
+      <div class="promo-box">
+        <div class="promo-bg"></div>
+        <img class="promo-img" src="../Assets/Image 4.png" alt="">
+        <div class="promo-title">VIP Seat Weekend Deal</div>
+        <div class="promo-desc">Upgrade to VIP seats for only an additional Rp35,000 every Saturday and Sunday.</div>
+        <div class="promo-code">Promo Code: <span class="highlight">VIPWEEKEND</span></div>
+      </div>
 
-      <label>
-        <h4>Category:</h4>
-        <select id="category">
-          <option value="">Select Category</option>
-          <option value="Service">Service</option>
-          <option value="Experience">Experience</option>
-          <option value="Facility">Facility</option>
-        </select>
-      </label>
+      <div class="promo-box">
+        <div class="promo-bg"></div>
+        <img class="promo-img" src="../Assets/Image 5.png" alt="">
+        <div class="promo-title">Free Popcorn Monday</div>
+        <div class="promo-desc">Get a free small-sized popcorn with every ticket purchase on Monday.</div>
+        <div class="promo-code">Promo Code: <span class="highlight">POPMONDAY</span></div>
+      </div>
 
-      <label class="member">
-        <h4>Are you a member?
-          <br> 
-          <input type="radio" name="member" value="yes" /> Yes
-          <input type="radio" name="member" value="no" /> No 
-        </h4>
-      </label>
-      <div id="error-msg" style="color: #b89d70; margin-top: 1rem;"></div>
-      <button type="submit">Submit</button>
-    </form>
+      <div class="promo-box">
+        <div class="promo-bg"></div>
+        <img class="promo-img" src="../Assets/Image 6.png" alt="">
+        <div class="promo-title">Midnight Movie Madness</div>
+        <div class="promo-desc">Get 5% off all tickets for showtimes after 10 PM, every Monday and Wednesday night.</div>
+        <div class="promo-code">Promo Code: <span class="highlight">MIDNIGHT50</span></div>
+      </div>
+    </div>
   </div>
 
 
@@ -118,6 +127,6 @@
   </footer>
 
 
-  <script src="Feedback Page.js"></script>
+  <script src="Promo Page.js"></script>
 </body>
 </html>
